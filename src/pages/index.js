@@ -1,16 +1,14 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Webjump</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>Hello World</main>
-
-      <footer></footer>
+      <Header></Header>
     </div>
   )
 }
