@@ -3,19 +3,19 @@ export default (req, res) => {
     items: [
       {
         id: 1,
-        name: "Camisetas",
-        path: "camisetas",
+        name: 'Camisetas',
+        path: 'camisetas'
       },
       {
         id: 2,
-        name: "Calças",
-        path: "calcas",
+        name: 'Calças',
+        path: 'calcas'
       },
       {
         id: 3,
-        name: "Calçados",
-        path: "calcados",
-      },
-    ],
-  });
-};
+        name: 'Calçados',
+        path: 'calcados'
+      }
+    ]
+  })
+}
