@@ -23,9 +23,7 @@ export const AcessRegister = styled.div`
   margin: 0 auto;
   text-align: right;
   padding: 3px;
-  /* margin-right: 15px; */
   padding-right: 15px;
-  /* border: solid 2px red; */
 `
 
 export const LinkStyle = styled.a`
@@ -38,7 +36,6 @@ export const MainHeader = styled.div`
   display: flex;
   justify-content: space-between;
 
-  /* max-width: 1024px; */
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
