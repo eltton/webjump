@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Navbar from '../Navbar'
 
 import {
   Container,
@@ -13,13 +14,17 @@ import {
   Button,
   IconSearch,
   IconClose,
-  InputMobile
+  InputMobile,
+  MobileMenu
 } from './styles'
 
 function Header() {
   const [clickSearch, setClickSearch] = useState(false)
+  const [clickMobile, setclickMobile] = useState(true)
 
   const handleClick = () => setClickSearch(!clickSearch)
+  const handleClickMobile = () => setclickMobile(!clickMobile)
+
   return (
     <Container>
       <TopHeader>
@@ -35,19 +40,20 @@ function Header() {
       </TopHeader>
 
       <MainHeader>
+        <MobileMenu onClick={handleClickMobile} />
+
         <Logo />
         <Search>
           {clickSearch ? null : (
             <>
               <Input />
-              <Button>Buscar</Button>
+              <Button>BUSCAR</Button>
             </>
           )}
 
           {clickSearch ? (
             <>
               <IconClose onClick={handleClick} />
-
               <InputMobile />
             </>
           ) : (
@@ -57,6 +63,10 @@ function Header() {
           )}
         </Search>
       </MainHeader>
+
+      {clickMobile ? <Navbar selected={false} /> : <Navbar selected={true} />}
+
+      {/* <Navbar selected={false} /> */}
     </Container>
   )
 }

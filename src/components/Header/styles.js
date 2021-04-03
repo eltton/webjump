@@ -1,10 +1,11 @@
 import styled from 'styled-components'
+import { FaBars } from 'react-icons/fa'
 import { FaSearch } from 'react-icons/fa'
 import { FaTimes } from 'react-icons/fa'
 
 export const Container = styled.header`
   width: 100%;
-  height: 100px;
+  height: 140px;
   display: flex;
   flex-direction: column;
 `
@@ -37,9 +38,24 @@ export const LinkStyle = styled.a`
   padding-left: 5px;
   padding-right: 5px;
 `
+
+export const MobileMenu = styled(FaBars)`
+  color: var(--custom-black);
+  font-size: 50px;
+  cursor: pointer;
+  margin: 10px;
+  display: none;
+  min-width: 30px;
+  @media only screen and (max-width: 600px) {
+    display: block;
+  }
+`
+
 export const MainHeader = styled.div`
   height: 100%;
   display: flex;
+  align-items: center;
+
   justify-content: space-between;
 
   width: 100%;
@@ -47,9 +63,13 @@ export const MainHeader = styled.div`
   margin: 0 auto;
 `
 export const Logo = styled.div`
+  /* border: solid 2px green; */
+  height: 100%;
+
   background-image: url('/img/logo.png');
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: left;
   display: flex;
   width: 100%;
   margin: 10px;
@@ -67,7 +87,7 @@ export const Input = styled.input`
   height: 30px;
   width: 250px;
   @media only screen and (max-width: 600px) {
-    visibility: hidden;
+    /* visibility: hidden; */
     display: none;
   }
 `
@@ -90,7 +110,8 @@ export const Button = styled.button`
   background: var(--custom-red);
   color: white;
   border: 0;
-  font-weight: bold;
+  font-weight: 700;
+  /* font-size: 12px; */
   @media only screen and (max-width: 600px) {
     visibility: hidden;
     display: none;
