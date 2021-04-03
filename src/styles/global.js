@@ -21,4 +21,15 @@ button {
     cursor:  pointer;
 }
 
+:root {
+      
+    --mobile: '320px';
+    --tablet: '768px';
+    --desktop: '1024px';
+
+
+    --custom-red: #cc0d1f;
+    --custom-black: #231f20;
+}
+
 `

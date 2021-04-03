@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Webjump</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Webjump - Store</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Header></Header>
     </div>

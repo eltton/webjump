@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { FaSearch } from 'react-icons/fa'
+import { FaTimes } from 'react-icons/fa'
 
 export const Container = styled.header`
   width: 100%;
@@ -9,21 +11,25 @@ export const Container = styled.header`
 
 export const TopHeader = styled.div`
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   height: 20px;
-  background: #231f20;
+  background: var(--custom-black);
 `
 
 export const AcessRegister = styled.div`
   height: 20px;
-  background: #231f20;
+  background: var(--custom-black);
   color: white;
   font-size: 0.8em;
+  width: 100%;
   max-width: 1024px;
   margin: 0 auto;
   text-align: right;
   padding: 3px;
-  padding-right: 15px;
+  padding-right: 35px;
+  @media only screen and (max-width: 600px) {
+    text-align: center;
+  }
 `
 
 export const LinkStyle = styled.a`
@@ -46,7 +52,8 @@ export const Logo = styled.div`
   background-size: contain;
   display: flex;
   width: 100%;
-  margin: 15px;
+  margin: 10px;
+  min-width: 180px;
 `
 export const Search = styled.div`
   width: 100%;
@@ -59,12 +66,57 @@ export const Search = styled.div`
 export const Input = styled.input`
   height: 30px;
   width: 250px;
+  @media only screen and (max-width: 600px) {
+    visibility: hidden;
+    display: none;
+  }
 `
+
+export const InputMobile = styled.input`
+  height: 30px;
+  width: 70%;
+  position: absolute;
+  margin-top: 40px;
+  right: 35px;
+  /* @media only screen and (max-width: 600px) {
+    visibility: hidden;
+    display: none;
+  } */
+`
+
 export const Button = styled.button`
   width: 80px;
   height: 30px;
-  background: #cc0d1f;
+  background: var(--custom-red);
   color: white;
   border: 0;
   font-weight: bold;
+  @media only screen and (max-width: 600px) {
+    visibility: hidden;
+    display: none;
+  }
+`
+
+export const IconSearch = styled(FaSearch)`
+  color: var(--custom-red);
+  font-size: 25px;
+  cursor: pointer;
+  visibility: hidden;
+
+  @media only screen and (max-width: 600px) {
+    visibility: visible;
+    margin-right: 25px;
+  }
+`
+
+export const IconClose = styled(FaTimes)`
+  color: var(--custom-red);
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 25px;
+  /* visibility: hidden; */
+
+  /* @media only screen and (max-width: 600px) {
+    visibility: visible;
+  } */
 `

@@ -1,3 +1,6 @@
+import { useState } from 'react'
+import Link from 'next/link'
+
 import {
   Container,
   AcessRegister,
@@ -7,11 +10,16 @@ import {
   Logo,
   Search,
   Input,
-  Button
+  Button,
+  IconSearch,
+  IconClose,
+  InputMobile
 } from './styles'
-import Link from 'next/link'
 
 function Header() {
+  const [clickSearch, setClickSearch] = useState(false)
+
+  const handleClick = () => setClickSearch(!clickSearch)
   return (
     <Container>
       <TopHeader>
@@ -29,8 +37,24 @@ function Header() {
       <MainHeader>
         <Logo />
         <Search>
-          <Input></Input>
-          <Button>Buscar</Button>
+          {clickSearch ? null : (
+            <>
+              <Input />
+              <Button>Buscar</Button>
+            </>
+          )}
+
+          {clickSearch ? (
+            <>
+              <IconClose onClick={handleClick} />
+
+              <InputMobile />
+            </>
+          ) : (
+            <>
+              <IconSearch onClick={handleClick} />
+            </>
+          )}
         </Search>
       </MainHeader>
     </Container>
