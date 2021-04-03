@@ -27,7 +27,7 @@ export const AcessRegister = styled.div`
   margin: 0 auto;
   text-align: right;
   padding: 3px;
-  padding-right: 35px;
+  /* padding-right: 25px; */
   @media only screen and (max-width: 600px) {
     text-align: center;
   }
@@ -63,7 +63,6 @@ export const MainHeader = styled.div`
   margin: 0 auto;
 `
 export const Logo = styled.div`
-  /* border: solid 2px green; */
   height: 100%;
 
   background-image: url('/img/logo.png');
@@ -72,20 +71,23 @@ export const Logo = styled.div`
   background-position: left;
   display: flex;
   width: 100%;
-  margin: 10px;
+  /* margin: 10px; */
   min-width: 180px;
 `
 export const Search = styled.div`
+  /* border: solid 2px yellowgreen; */
   width: 100%;
   display: flex;
   justify-content: flex-end;
+
   align-items: center;
-  margin: 15px;
+  /* margin: 15px; */
 `
 
 export const Input = styled.input`
   height: 30px;
   width: 250px;
+
   @media only screen and (max-width: 600px) {
     /* visibility: hidden; */
     display: none;
@@ -111,6 +113,8 @@ export const Button = styled.button`
   color: white;
   border: 0;
   font-weight: 700;
+  margin-right: -15px;
+
   /* font-size: 12px; */
   @media only screen and (max-width: 600px) {
     visibility: hidden;
