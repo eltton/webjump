@@ -5,7 +5,6 @@ export const Container = styled.div`
   height: 350px;
   background-color: #e2dedb;
   padding: 15px 0px 0px 25px;
-
   a {
     text-decoration: none;
     color: var(--custom-black);

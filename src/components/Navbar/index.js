@@ -33,7 +33,7 @@ function Navbar(props) {
           ))}
 
           <li>
-            <Link href="/">
+            <Link href="#">
               <a>CONTATO</a>
             </Link>
           </li>

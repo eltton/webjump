@@ -10,7 +10,6 @@ const ScaleAnimation = keyframes`
 `
 
 export const Cards = styled.div`
-  /* border: solid 2px pink; */
   width: 180px;
   height: 100%;
   display: flex;
@@ -21,7 +20,6 @@ export const Cards = styled.div`
     border: 1px solid rgba(232, 232, 232, 1);
     &:hover {
       animation: ${ScaleAnimation} 0.8s ease-in-out forwards;
-      /* border: none; */
       border-radius: 15px;
     }
   }
@@ -43,7 +41,6 @@ export const Cards = styled.div`
     border: none;
     border-radius: 5px;
     color: white;
-    /* display: inline-block; */
     font-weight: bold;
     padding: 10px 20px;
     width: 90%;
@@ -52,8 +49,5 @@ export const Cards = styled.div`
       opacity: 0.8;
       transition: 0.5s;
     }
-    /* text-align: center; */
-    /* text-decoration: none; */
-    /* text-transform: uppercase; */
   }
 `

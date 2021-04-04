@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { api } from '../../services/api'
-
 import { Container } from './styles'
 
 function SideBar() {

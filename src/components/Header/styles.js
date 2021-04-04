@@ -12,7 +12,6 @@ export const Container = styled.header`
 
 export const TopHeader = styled.div`
   width: 100%;
-  /* margin: 0 auto; */
   height: 20px;
   background: var(--custom-black);
 `
@@ -27,7 +26,6 @@ export const AcessRegister = styled.div`
   margin: 0 auto;
   text-align: right;
   padding: 3px;
-  /* padding-right: 25px; */
   @media only screen and (max-width: 600px) {
     text-align: center;
   }
@@ -71,17 +69,14 @@ export const Logo = styled.div`
   background-position: left;
   display: flex;
   width: 100%;
-  /* margin: 10px; */
   min-width: 180px;
 `
 export const Search = styled.div`
-  /* border: solid 2px yellowgreen; */
   width: 100%;
   display: flex;
   justify-content: flex-end;
 
   align-items: center;
-  /* margin: 15px; */
 `
 
 export const Input = styled.input`
@@ -89,7 +84,6 @@ export const Input = styled.input`
   width: 250px;
 
   @media only screen and (max-width: 600px) {
-    /* visibility: hidden; */
     display: none;
   }
 `
@@ -100,10 +94,6 @@ export const InputMobile = styled.input`
   position: absolute;
   margin-top: 40px;
   right: 35px;
-  /* @media only screen and (max-width: 600px) {
-    visibility: hidden;
-    display: none;
-  } */
 `
 
 export const Button = styled.button`
@@ -115,7 +105,6 @@ export const Button = styled.button`
   font-weight: 700;
   margin-right: -15px;
 
-  /* font-size: 12px; */
   @media only screen and (max-width: 600px) {
     visibility: hidden;
     display: none;
@@ -139,9 +128,4 @@ export const IconClose = styled(FaTimes)`
   font-size: 25px;
   cursor: pointer;
   margin-right: 25px;
-  /* visibility: hidden; */
-
-  /* @media only screen and (max-width: 600px) {
-    visibility: visible;
-  } */
 `

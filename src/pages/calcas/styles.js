@@ -3,7 +3,6 @@ import { FaTh } from 'react-icons/fa'
 import { FaThList } from 'react-icons/fa'
 
 export const Container = styled.div`
-  /* border: solid 2px red; */
   display: flex;
   flex-direction: column;
   max-width: 1024px;
@@ -23,7 +22,6 @@ export const Route = styled.span`
 `
 
 export const ContainerMain = styled.div`
-  /* border: solid 2px red; */
   margin-top: 10px;
   height: 100%;
   display: flex;
@@ -35,7 +33,6 @@ export const ContainerMain = styled.div`
 `
 
 export const Filter = styled.div`
-  /* border: solid 2px red; */
   width: 250px;
   padding: 10px;
   border: solid 1px rgba(232, 232, 232, 1);
@@ -82,7 +79,6 @@ export const Collor = styled.div`
 `
 
 export const BoxCards = styled.div`
-  /* border: solid 2px green; */
   padding-right: 10px;
   width: 100%;
 
@@ -108,7 +104,6 @@ export const ContainerIcon = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
-  /* justify-content: space-between; */
 `
 export const IconGrid = styled(FaTh)`
   font-size: 20px;
@@ -147,7 +142,6 @@ export const ContainerCards = styled.div`
 `
 
 export const Grid = styled.div`
-  /* border: solid 5px gray; */
   width: 100%;
   height: 100%;
   display: grid;

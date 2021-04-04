@@ -18,7 +18,6 @@ export const Nav = styled.nav`
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
-  /* border: solid 2px green; */
   height: 100%;
   padding: 10px;
   font-weight: 700;
@@ -28,7 +27,6 @@ export const Nav = styled.nav`
   ul {
     display: flex;
     justify-content: space-between;
-    /* border: solid 2px white; */
     width: 80%;
     @media only screen and (max-width: 600px) {
       flex-direction: column;
@@ -38,7 +36,6 @@ export const Nav = styled.nav`
     }
 
     li {
-      /* border: solid 2px white; */
       list-style: none;
       a {
         text-decoration: none;
