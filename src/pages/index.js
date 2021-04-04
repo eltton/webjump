@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import SideBar from '../components/SideBar'
+import Footer from '../components/Footer'
 
-import { Page, Container, TopBox, Welcome, Footer } from './styles'
+import { Page, Container, TopBox, Welcome } from './styles'
 
 export default function Home() {
   return (

@@ -1,9 +1,20 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { api } from '../../services/api'
 
 import { Container } from './styles'
 
 function SideBar() {
+  const [menuData, setMenuData] = useState([])
+
+  useEffect(() => {
+    async function loadList() {
+      const response = await api.get('/api/V1/categories/list')
+      setMenuData(response.data.items)
+    }
+
+    loadList()
+  }, [])
   return (
     <Container>
       <ul>
@@ -12,21 +23,12 @@ function SideBar() {
             <a>Página Inicial</a>
           </Link>
         </li>
-        <li>
-          <Link href="/">
-            <a>Camisetas</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>Calças</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>Sapatos</a>
-          </Link>
-        </li>
+        {menuData.map(data => (
+          <li key={data.id}>
+            <Link href={'/' + data.path}>{data.name}</Link>
+          </li>
+        ))}
+
         <li>
           <Link href="/">
             <a>Contato</a>

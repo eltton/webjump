@@ -43,6 +43,7 @@ export const Nav = styled.nav`
       a {
         text-decoration: none;
         color: white;
+        text-transform: uppercase;
       }
     }
   }
