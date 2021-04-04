@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { FaTh } from 'react-icons/fa'
 import { FaThList } from 'react-icons/fa'
+import { MainHeader } from '../../components/Header/styles'
 
 export const Container = styled.div`
   /* border: solid 2px red; */
@@ -167,3 +168,4 @@ export const Grid = styled.div`
     grid-template-columns: auto;
   }
 `
+export default Container

@@ -167,3 +167,4 @@ export const Grid = styled.div`
     grid-template-columns: auto;
   }
 `
+export default Container
