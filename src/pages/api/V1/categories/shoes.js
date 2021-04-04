@@ -1,4 +1,6 @@
-export default (req, res) => {
+import micro from 'micro-cors'
+
+function MyApi(req, res) {
   res.status(200).json({
     filters: [
       {
@@ -141,3 +143,7 @@ export default (req, res) => {
     ]
   })
 }
+
+const cors = micro()
+
+export default cors(MyApi)
