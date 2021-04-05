@@ -1,4 +1,4 @@
-![Layout](./public/giff.gif){:width="200px"}
+![Layout](./public/giff.gif){width="200px"}
 
 ## :dart: Desafio
 
