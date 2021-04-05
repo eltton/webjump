@@ -1,6 +1,8 @@
+![Layout](./public/giff.gif)
+
 ## :dart: Desafio
 
-Tornar o layout disponibizado em uma pagina funcional
+Tornar o layout disponibizado em uma página funcional!
 
 ## :rocket: Tecnologias
 
@@ -22,6 +24,7 @@ $ git clone https://eltonfx@bitbucket.org/eltonfx/assessment-frontend.git
 
 # Entre na pasta
 $ cd assessment-frontend
+
 # Instale as dependências
 $ yarn
 
