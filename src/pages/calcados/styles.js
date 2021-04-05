@@ -11,6 +11,7 @@ export const Container = styled.div`
   margin-top: 10px;
 `
 export const Route = styled.span`
+  margin-bottom: 10px;
   font-size: 12px;
   a {
     text-decoration: none;
