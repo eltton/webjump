@@ -7,34 +7,34 @@
 
 </div>
 
-<h1 align="center">WebJump</h1>
+<!-- <h1 align="center">WebJump</h1> -->
 
-<p align="center">
+<!-- <p align="center">
   <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/eltton/[PROJECT_NAME]?color=56BEB8">
 
   <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/eltton/[PROJECT_NAME]?color=56BEB8">
 
   <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/eltton/[PROJECT_NAME]?color=56BEB8">
 
-  <img alt="Licença" src="https://img.shields.io/github/license/eltton/[PROJECT_NAME]?color=56BEB8">
+  <img alt="Licença" src="https://img.shields.io/github/license/eltton/[PROJECT_NAME]?color=56BEB8"> -->
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/eltton/[PROJECT_NAME]?color=56BEB8" /> -->
 
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/eltton/[PROJECT_NAME]?color=56BEB8" /> -->
 
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/eltton/[PROJECT_NAME]?color=56BEB8" /> -->
-</p>
+<!-- </p> -->
 
 <!-- Status -->
 
 <!-- <h4 align="center">
-	🚧  [PROJECT_NAME] 🚀 Em construção...  🚧
-</h4>
+	<!-- 🚧  [PROJECT_NAME] 🚀 Em construção...  🚧 -->
+<!-- </h4> -->
 
-<hr> -->
+<!-- <hr> -->
 
-<p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+<!-- <p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
   <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
@@ -43,7 +43,7 @@
   <a href="https://github.com/eltton" target="_blank">Autor</a>
 </p>
 
-<br>
+<br> -->
 
 ## :dart: Sobre
 
