@@ -5,7 +5,7 @@
 Tornar o layout disponibizado em uma página funcional!
 
 Demo
-https://webjumpchallenge.vercel.app/calcados
+https://webjumpchallenge.vercel.app/
 
 ## :rocket: Tecnologias
 
