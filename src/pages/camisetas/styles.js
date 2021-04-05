@@ -157,7 +157,7 @@ export const Grid = styled.div`
   @media only screen and (max-width: 760px) {
     grid-template-columns: auto auto;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 390px) {
     grid-template-columns: auto;
   }
 `
